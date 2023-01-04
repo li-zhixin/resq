@@ -635,7 +635,7 @@ describe('utils', () => {
             expect(findReactInstance(element)).toBeTruthy()
         })
 
-        it('should work with React 17', () => {
+        it('should work with React 18', () => {
             const element = {
                 __reactFiber$test1234: true,
             }
